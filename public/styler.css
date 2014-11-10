@@ -35,5 +35,9 @@
 
 section.hero{
 	height: 100vh;
-	
+
+}
+
+.top-pad{
+	padding-top: 16vh;
 }

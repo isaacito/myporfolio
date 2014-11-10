@@ -6,9 +6,12 @@
 
 .icon{
 	width: 75px;
+	height: 75px;
+	-webkit-filter: grayscale(1);
 }
 .icon:hover{
-	color: black;
+	-webkit-filter: grayscale(0);
+
 }
 
 #ron{
@@ -18,4 +21,19 @@
 	height: 100px;
 	width: 100px;
 
+}
+
+.instagram.icon{
+	width: 80px;
+	height: 80px
+}
+
+.facebook.icon{
+	width: 68px;
+	height: 68px;
+}
+
+section.hero{
+	height: 100vh;
+	
 }

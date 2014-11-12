@@ -31,13 +31,28 @@
 }
 
 .instagram.icon{
-	width: 80px;
-	height: 80px
+	width: 70px;
+	height: 70px;
+}
+
+.twitter.icon{
+
 }
 
 .facebook.icon{
 	width: 68px;
 	height: 68px;
+}
+
+.github.icon{
+	width: 74px;
+	height: 74px;
+}
+
+.mail.icon{
+	width: 76px;
+	height: 76px;
+
 }
 
 section.hero{

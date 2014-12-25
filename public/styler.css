@@ -4,26 +4,7 @@
 	border-width: 3px;
 }
 
-.row{
 
-	margin-top: 10px;
-}
-
-.icon{
-	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
-    filter: gray;
-    -webkit-filter: grayscale(100%);
-    width: 70px;
-	height: 70px;
-}
-
-
-.icon:hover{
-	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); 
-    filter: none;
-    -webkit-filter: grayscale(0%)
-
-}
 
 #ron{
 	border-radius: 100%;
@@ -34,34 +15,275 @@
 
 }
 
-.twitter.icon{
-	width: 76px;
-	height: 76px;
+#two ul { 
+	margin: 0; 
+	padding: 10px; 
+	list-style-type: none; 
+	text-align: right; 
+	background-color: #000; 
+	} 
+ 
+#two li {  
+	display: inline; 
+	margin-right: 20px;
+	} 
+ 
+#two a { 
+	text-decoration: none; 
+	padding: .2em 1em; 
+	color: #fff; 
+	background-color: #000; 
+	} 
+ 
+#two a:hover { 
+	color: #000; 
+	background-color: #fff; 
+	} 
+
+.projects{
+   height: 200px;
+   width: 250px;
+   margin: 2% auto;
+  margin-top: 10%;
+  
+}
+
+#ed{
+    background-image: url('edfaces1.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat; 
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#ed:hover {
+    background-image: url('edfaces2.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2A6496;
+    border-radius: 10px;
+}
+
+
+
+#hopeless{
+    background-image: url('hopeless1.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#hopeless:hover {
+    background-image: url('hopeless2.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2A6496;
+    border-radius: 10px;
+}
+
+#todo{
+    background-image: url('todo1.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#todo:hover {
+    background-image: url('todo2.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2A6496;
+    border-radius: 10px;
+}
+
+#fanvio{
+    background-image: url('fanvio1.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#fanvio:hover {
+    background-image: url('fanvio2.png');
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #2A6496;
+    border-radius: 10px;
+}
+
+html, body{
+  font-family: 'Exo 2', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.wrapper{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.nav-bar-area{
+  width: 100%;
+  height: 60px;
+  background-color: #000;
+  padding: 0;
+  margin:0 auto;
+  position:relative;
+
+}
+
+ul{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  right: 5px;
+}
+
+ul li{
+  display:inline;
+  float:left;
+  padding: 10px 10px 10px 8px;
+  margin: 0 3% 0 0;
+  color: #fff;
+  cursor:pointer;
+  line-height: 225%;
+}
+
+li:hover{
+  background-color: #888888;
+}
+
+.menu{
+display:none;
+color:#fff;
+font-weight:bold;
+}
+
+#text{
+float:right;
+}
+
+ #image{
+ float:right;
+ cursor:pointer;
+ }
+	
+
+
+@media screen and (max-width: 600px){
+	.nav-bar-area{
+	height:auto;
+	overflow:auto;
+	}
+	
+	ul{
+	width: 100%;
+	height: auto;
+	display:block;
+	overflow: hidden;
+	}
+	
+	ul li{
+	width: 50%;
+	float:left;
+	position: relative;
+	display:block;
+	margin: -1px;
+	padding: 10px 0 10px 0;
+	text-indent: 25px;
+	border-bottom: 1px solid #888888;
+	border-right: 1px solid #888888;
+	}
+	
+	.nav-bar{
+	display:block;
+	}	
+	
+	
+}
+
+@media screen and (max-width: 480px){
+
+	.menu{
+	display:block;
+	padding: 20px 0 40px 0;
+	border-bottom: 1px solid #fff;
+	}
+	
+	#text{
+	margin: 0 0 0 20px;
+	}
+	
+	#image{
+	margin: 0 30px 0 0;
+	}
+	
+	.nav-bar{
+	display:none;
+	}
+	
+	.nav-bar{
+	font-size: 0.8em;
+	}
 	
 
 }
-
-.facebook.icon{
-	width: 68px;
-	height: 68px;
+#me{
+	text-align: center;
 }
 
-.github.icon{
-	width: 74px;
-	height: 74px;
+.icon-start {
+	margin-left:25%;
 }
 
-.mail.icon{
-	width: 76px;
-	height: 76px;
+a{
+	color: black;
+}
+
+h3{
+	text-align: center;
+	border-bottom: dotted;
+	border-color: black;
+	margin-top: 25%;
+	margin-bottom: 5%
+}
+
+h1{
+	margin-top: 17%;
+	margin-bottom: 2%;
+}
+
+#cm{
+	margin-top: 20%;
+}
+
+h4{
+	text-align: center;
+}
+
+#row4{
+	margin-top: 15%;
 
 }
 
-section.hero{
-	height: 100vh;
-
-}
-
-.top-pad{
-	padding-top: 20vh;
-}

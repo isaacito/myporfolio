@@ -1,11 +1,6 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    commonjs (0.2.7)
-    font-awesome-less (4.2.0)
-      less (~> 2.4.0)
-    less (2.4.0)
-      commonjs (~> 0.2.7)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -19,5 +14,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  font-awesome-less
   sinatra

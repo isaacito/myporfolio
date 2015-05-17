@@ -241,7 +241,9 @@ float:right;
  cursor:pointer;
  }
 	
-
+.fa-2x{
+color:white;
+}
 
 @media screen and (max-width: 750px){
 	.nav-bar-area{
